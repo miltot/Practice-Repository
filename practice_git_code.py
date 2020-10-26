@@ -13,4 +13,13 @@ class Person:
     
     """
     
+    def __init__(self,name):
+        """initialize a new person object"""
+        self.name = name 
+        self.connections = set()
+        
+    def connect(self,person2):
+        """connect with person 2"""
+        
+        
     
